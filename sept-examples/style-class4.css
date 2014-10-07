@@ -1,0 +1,104 @@
+html,
+body {
+	font-family: "Arial", "Helvetica", sans-serif;
+}
+
+html {
+	width: 75%;
+	margin: 20px auto;
+	}
+
+img {
+	display: block;
+	width: 400px;
+	height: auto;
+	margin: 10px auto;
+}
+
+.feature {
+	float: left;
+	padding-right: 100px;
+	}
+	
+
+
+#header {
+	position: relative;
+	right: 200px;
+	width: 200px;
+	padding: 10px 30px 10px 30px;
+}
+
+#content {
+	margin: 20px 50px;
+	border-top: 10px dotted black;
+	/* border-right: 10px dotted red; ignored because we want only top and bottom */
+	border-bottom: 10px dotted blue;
+	/* border-left: 10px dotted green; ignored because we only want top and bottom */
+
+#footer { 
+	clear: both;
+	padding-left: 200px;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: 300;
+	font-family: "Times New Roman", "Times", serif;
+	text-align: center;
+}
+
+	#content h1 {
+		text-align: right;
+		text-decoration: underline;
+		}
+
+.blue {
+	color: blue;
+}
+	span.blue {
+ 		color: skyblue;
+ 		text-decoration: underline;
+ 		font-size: 20px;
+	}
+	
+		p span.blue {
+			color: darkblue;
+		}
+
+span {
+	font-weight: bold;
+	}
+
+a:link {text-decoration: none;}
+a:visited {color: yellow;}
+a:hover {
+	color: purple;
+	font-weight: bold;
+	}
+a:active {color: orange;}
+	
+.column-left {
+	width: 25%;
+	float: left;
+}
+
+.column-right {
+	width: 70%;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
